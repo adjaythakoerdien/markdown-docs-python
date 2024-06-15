@@ -1,10 +1,10 @@
 <html>
 
 <head>
-	<title>Item Details</title>
+	<title>Docs</title>
 	<style>
 		html {
-			background-color: #ccc;
+			background-color: #000;
 		}
 
 		body {
@@ -12,8 +12,14 @@
 			margin-left: auto;
 			margin-right: auto;
 			width: 600px;
-			background-color: #fff;
+			background-color: #444;
 			padding: 1em;
+			box-shadow: 0 2px 4px #666;
+			color: #fff;
+		}
+
+		a {
+			color: #4ade80;
 		}
 
 		.square-brackets-quote {
@@ -36,11 +42,13 @@
 </head>
 
 <body>
-	<a href="/">
-		<h1>docs.adjay.dev</h1>
-	</a>
-	<hr>
-	{{ body | safe }}
+	<main>
+		<a href="/">
+			<h1>docs.adjay.dev</h1>
+		</a>
+		<hr>
+		{{ body | safe }}
+	</main>
 </body>
 
 </html>
