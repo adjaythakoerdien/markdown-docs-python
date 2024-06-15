@@ -55,7 +55,9 @@ async def read_item(request: Request):
     links = list_dir()
     html_links = ""
     for link in links:
-        html_links += f"<p><a href='view/{link}'>{link}</a></p>"
+        link_string = link.replace(".md", "")
+        html_links += f"<a href='{link}'>{link_string}</a> <span style='color: #4ade80;'>|</span> "
+    html_links += "<br><hr>\n\n"
     body = html_links + body
     body = markdown.markdown(body)
     body = body.replace("<h1>", "<h1><span class='h1'># </span>")
