@@ -8,6 +8,8 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 COPY . /code/app
 COPY templates /code/templates
+COPY md /code/md
+
 # CMD ["fastapi", "run", "app/main.py", "--port", "80"]
 
 # If running behind a proxy like Nginx or Traefik add --proxy-headers
