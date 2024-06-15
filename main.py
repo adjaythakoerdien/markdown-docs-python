@@ -21,7 +21,9 @@ def process_markdown(text: str):
     links = list_dir()
     html_links = ""
     for link in links:
-        html_links += f"<p><a href='{link}'>{link}</a></p>"
+        link_string = link.replace(".md", "")
+        html_links += f"<a href='{link}'>{link_string}</a> <span style='color: #4ade80;'>|</span> "
+    html_links += "<br><hr>\n\n"
     text = html_links + text
     text = markdown.markdown(text, extensions=["fenced_code", "codehilite"])
     text = text.replace("<h1>", "<h1><span style='color: red;'># </span>")

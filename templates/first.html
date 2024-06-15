@@ -3,6 +3,7 @@
 <head>
 	<title>Docs</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
 	<!-- <link rel="stylesheet" href="../templates/styles.css"> -->
 	<style>
 		pre {
@@ -413,12 +414,13 @@
 		}
 
 		body {
-			font-family: 'Mulish';
+			font-family: 'JetBrains Mono';
+			font-size: 0.85em;
 			margin-left: auto;
 			margin-right: auto;
-			width: 600px;
+			max-width: 720px;
 			background-color: #444;
-			padding: 16px;
+			padding: 20px;
 			box-shadow: 0 2px 4px #666;
 			color: #fff;
 		}
@@ -434,23 +436,24 @@
 
 		.square-brackets-quote {
 			display: inline-block;
-			margin: 1em;
-			padding: 1em;
+			background-color: #444444;
+			/* margin: 20px; */
 
 			blockquote {
-				border-radius: 8px;
+				border: solid 1px #4ade80;
 				display: inline-block;
 				margin: 0;
-				padding: 2.5em;
+				padding: 0.5em;
+				padding-left: 2em;
 				position: relative;
-				width: 520px;
+				width: 678px;
 
 			}
 		}
 
 		@media only screen and (max-width: 600px) {
 			body {
-				max-width: 90vw;
+				font-size: 0.75em;
 			}
 
 			.square-brackets-quote {
