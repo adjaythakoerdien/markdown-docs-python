@@ -39,6 +39,18 @@
 
 			}
 		}
+
+		@media only screen and (max-width: 600px) {
+			body {
+				max-width: 90vw;
+			}
+
+			.square-brackets-quote {
+				blockquote {
+					width: 70vw;
+				}
+			}
+		}
 	</style>
 </head>
 
@@ -48,7 +60,9 @@
 			<h1>docs.adjay.dev</h1>
 		</a>
 		<hr>
-		{{ body | safe }}
+		<article class="content">
+			{{ body | safe }}
+		</article>
 	</main>
 </body>
 
