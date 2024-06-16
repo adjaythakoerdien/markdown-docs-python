@@ -26,7 +26,9 @@ def process_markdown(text: str):
     html_links += "<br><hr>\n\n"
     text = html_links + text
     text = markdown.markdown(text, extensions=["fenced_code", "codehilite"])
-    text = text.replace("<h1>", "<h1><span style='color: red;'># </span>")
+    text = text.replace("<h1>", "<h1><span class='h1'># </span>")
+    text = text.replace("<h2>", "<h2><span class='h1'>## </span>")
+    text = text.replace("<h3>", "<h3><span class='h1'>### </span>")
     text = text.replace(
         "<blockquote>", "<div class='square-brackets-quote'><blockquote>"
     )
