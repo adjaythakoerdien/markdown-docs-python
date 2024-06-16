@@ -13,7 +13,7 @@ def list_dir():
     links = []
     for root, dirs, files in os.walk("md/", topdown=True):
         print(root, dirs, files)
-        links = files
+        links = [f for f in files if ".md" in f]
     return links
 
 

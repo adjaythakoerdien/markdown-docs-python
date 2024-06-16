@@ -1,13 +1,4 @@
----
-id: 2024-05-16_python-poetry
-aliases: 
-tags: 
-date: 2024-05-16
-type: note
-links:
-  - "[[python]]"
-  - "[[code]]"
----
+
 
 # 2024-05-16_python-poetry
 

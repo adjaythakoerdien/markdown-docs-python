@@ -1,16 +1,3 @@
----
-id: python-cli-pyenv
-aliases: 
-tags: 
-links:
-  - "[[python]]"
-  - "[[cli]]"
-  - "[[admin]]"
----
-[[python]]
-[[cli]]
-
-
 ## pyenv
 
 ### pyenv install

@@ -1,16 +1,4 @@
----
-id: 2024-04-16_rust-cargo-cli
-aliases: 
-tags:
-  - code
-date: 2024-05-16
-type: note
-links:
-  - "[[python]]"
-  - "[[code]]"
-  - "[[rust]]"
-  - "[[cli]]"
----
+
 
 # rust cargo cli
 
