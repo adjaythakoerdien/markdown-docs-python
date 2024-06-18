@@ -7,7 +7,7 @@ Setup below.
 ## Directory structure:
 Make a new directory to store your `config files` in a central place. My directory is called `dotfiles`. 
 In this directory you can make a new directory for the type of config file you want to store. In the e example below I've used `nvim` as an example.
-In tha new directory you build up the directory structure of the original config file location. You'll understand later wht we do it like this.
+In tha new directory you build up the directory structure of the original config file location. You'll understand later why we do it like this.
 
 > ~/dotfiles/nvim/.config/nvim/
 
