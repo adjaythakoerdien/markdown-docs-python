@@ -31,7 +31,7 @@ stow nvim
 ```
 
 ### What is a simlink?
-A symlink (also called a symbolic link) is a type of file in Linux that points to another file or a folder on your computer. Symlinks are similar to shortcuts in Windows.
+A symlink (also called a symbolic link) is a type of file in Linux that points to another file or a folder on your computer. Symlinks are similar but not entirely like aliasses.
 
 ## Enjoy
 You can put this `dotfiles` directory in a repo in git. This way you can just pull your repo from any computer and immediatly start working with you own personal config files.
