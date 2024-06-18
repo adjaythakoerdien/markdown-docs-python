@@ -61,7 +61,7 @@ async def root(request: Request, filename: str):
 
 @app.get("/", response_class=HTMLResponse)
 async def read_item(request: Request):
-    with open("md/home.md", "r", encoding="utf8") as infile:
+    with open("md/_home.md", "r", encoding="utf8") as infile:
         body = infile.read()
 
     body = process_markdown(body)
